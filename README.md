@@ -27,4 +27,3 @@ docker stop ch-s1-r1
 docker exec -i ch-s1-r2 clickhouse-client -q "SELECT count() FROM lab.events_dist"   # همان عدد قبلی
 docker start ch-s1-r1   # بعد از چند ثانیه همگام می‌شود؛ 03_verify.sql را دوباره بزنید
 ```
-اگر استاد تعداد نود دیگری خواست: فقط بلوک‌های `<shard>/<replica>` در `config/cluster.xml`، سرویس‌های compose و ماکروها را کم/زیاد کنید.
