@@ -1,0 +1,10 @@
+<clickhouse>
+  <users>
+    <ch_cluster>
+      <password>lab_pass</password>
+      <networks><ip>::/0</ip></networks>
+      <profile>default</profile>
+      <quota>default</quota>
+    </ch_cluster>
+  </users>
+</clickhouse>
